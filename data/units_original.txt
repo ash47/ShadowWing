@@ -1,0 +1,251 @@
+Unit Data File
+==============
+
+This text file contains tabular data about each unit and missile in the game.
+You may use this data in any way you wish in the source code of your program.
+It is provided so that you don't have to work out the exact attributes and
+placements of each unit.
+
+There are two sections. The "general unit data" section contains a table with
+a row for each unit *type*. The "specific unit data" section contains a table
+with a row for each actual unit instance. For example, there are many Drones
+in the game -- the general table has one row for "Drone". The specific table
+has a row for each Drone featured in the game.
+
+General unit data
+=================
+
+Note that the image file for each unit is in the "assets/units" directory.
+
+Unit type       Image file          Kind        Shield  Damage  Firepower
+-------------------------------------------------------------------------
+Player*         player.png          Player      100     10      0
+
+Fighter         fighter.png         Enemy       24      9       0
+Drone           drone.png           Enemy       16      8       -
+Asteroid        asteroid.png        Enemy       24      12      -
+Boss            boss.png            Enemy       240     100     3
+
+Missile (blue)  missile-player.png  Missile     1       8       -
+Missile (red)   missile-enemy.png   Missile     1       8       -
+
+* The player's attributes may be affected by items. These are the starting
+  attributes.
+
+Specific unit data
+==================
+
+This table shows the starting position of each unit in the game.
+
+Unit type	Start position (x, y) in pixels
+-----------------------------------------------
+Player		1296, 13716Fighter		1166, 12869
+Fighter		1119, 12394
+Fighter		1246, 12303
+Drone		1139, 11772
+Drone		1499, 11659
+Drone		1271, 11370
+Fighter		1809, 10923
+Fighter		1662, 10847
+Fighter		1161, 10857
+Fighter		934, 10810
+Fighter		787, 10782
+Asteroid	585, 10440
+Asteroid	717, 10369
+Asteroid	640, 10223
+Asteroid	1116, 10088
+Drone		1542, 9877
+Drone		1877, 9704
+Asteroid	2127, 9349
+Asteroid	2050, 9164
+Asteroid	2127, 8972
+Asteroid	1980, 8849
+Asteroid	1853, 8692
+Asteroid	2025, 8617
+Asteroid	1892, 8488
+Asteroid	1766, 8420
+Asteroid	1952, 8299
+Asteroid	1812, 8255
+Drone		1848, 7649
+Drone		1961, 7477
+Drone		1431, 7555
+Drone		970, 7331
+Drone		1437, 7100
+Drone		1582, 6796
+Drone		1024, 6907
+Drone		717, 6419
+Asteroid	1305, 6123
+Asteroid	1564, 6101
+Fighter		1971, 5494
+Fighter		2012, 5452
+Fighter		2078, 5394
+Fighter		1125, 4930
+Asteroid	1325, 4382
+Asteroid	1437, 4317
+Drone		1677, 3880
+Drone		1370, 3780
+Drone		1679, 3670
+Drone		1353, 3560
+Fighter		1633, 3280
+Fighter		1487, 3230
+Fighter		1407, 3173
+Fighter		1335, 3117
+Asteroid	1514, 2783
+Asteroid	1347, 2602
+Asteroid	1428, 2326
+Asteroid	1756, 2290
+Drone		2053, 2155
+Drone		1582, 1831
+Drone		1249, 1960
+Drone		1221, 1346
+Drone		1340, 1214
+Fighter		1248, 12696
+Asteroid	1516, 11086
+Asteroid	834, 10463
+Asteroid	735, 9994
+Asteroid	608, 9919
+Asteroid	801, 9717
+Drone		1297, 9517
+Drone		1143, 9310
+Fighter		1530, 9141
+Fighter		1450, 9093
+Fighter		1365, 9062
+Fighter		1351, 9031
+Fighter		1285, 8985
+Fighter		1222, 8924
+Fighter		1155, 8867
+Fighter		1072, 8812
+Fighter		1273, 8375
+Fighter		1408, 8292
+Fighter		1519, 8205
+Fighter		1612, 8086
+Asteroid	1193, 7965
+Drone		1379, 7762
+Asteroid	840, 7742
+Asteroid	644, 7629
+Drone		750, 7469
+Asteroid	1218, 7200
+Asteroid	1455, 7256
+Asteroid	1709, 7068
+Asteroid	1798, 6894
+Asteroid	1544, 6881
+Asteroid	1271, 6868
+Asteroid	1082, 6685
+Asteroid	857, 6694
+Asteroid	1148, 6510
+Asteroid	1409, 6641
+Asteroid	1809, 6421
+Asteroid	1908, 6203
+Asteroid	1603, 6259
+Asteroid	1403, 6138
+Asteroid	1075, 6094
+Asteroid	836, 5974
+Fighter		685, 5581
+Asteroid	732, 5098
+Asteroid	550, 4723
+Asteroid	616, 4611
+Drone		543, 4479
+Fighter		628, 3904
+Fighter		569, 3396
+Fighter		484, 3317
+Asteroid	500, 2704
+Asteroid	607, 2650
+Asteroid	563, 2559
+Drone		893, 2367
+Drone		1194, 2272
+Asteroid	832, 2187
+Fighter		753, 1883
+Asteroid	903, 1692
+Asteroid	677, 1529
+Asteroid	493, 1453
+Asteroid	643, 1344
+Asteroid	1018, 1400
+Asteroid	2127, 1973
+Asteroid	1961, 1820
+Asteroid	1507, 1887
+Asteroid	1753, 1532
+Asteroid	1471, 1378
+Drone		1905, 922
+Drone		1990, 701
+Drone		1935, 10541
+Asteroid	2021, 10605
+Asteroid	1738, 10420
+Asteroid	1547, 10447
+Asteroid	1375, 10278
+Drone		1595, 10209
+Drone		1808, 10057
+Drone		1708, 9964
+Asteroid	1708, 9852
+Asteroid	1567, 9768
+Asteroid	1281, 9768
+Asteroid	1157, 9588
+Asteroid	1477, 9330
+Asteroid	1197, 9167
+Asteroid	1129, 9081
+Asteroid	1462, 8904
+Drone		2056, 8122
+Drone		1803, 8098
+Asteroid	1415, 7971
+Asteroid	1790, 7881
+Asteroid	1240, 7443
+Drone		975, 7076
+Fighter		1410, 6835
+Fighter		1251, 6697
+Fighter		1405, 6482
+Asteroid	1651, 6628
+Asteroid	1880, 6537
+Asteroid	1885, 6312
+Asteroid	1739, 6126
+Asteroid	1395, 5995
+Asteroid	1135, 5954
+Fighter		1406, 5614
+Asteroid	1909, 5271
+Asteroid	2034, 4906
+Asteroid	2054, 4843
+Drone		1967, 4770
+Drone		1961, 3243
+Drone		1835, 3180
+Fighter		1939, 3040
+Asteroid	1852, 2894
+Asteroid	2019, 2703
+Asteroid	2099, 2612
+Drone		1904, 2539
+Asteroid	1764, 2061
+Asteroid	1929, 1255
+Asteroid	252, 7308
+Asteroid	684, 7236
+Asteroid	396, 7164
+Asteroid	180, 7084
+Drone		108, 7050
+Drone		756, 7050
+Asteroid	327, 6940
+Asteroid	72,  6875
+Asteroid	428, 6842
+Asteroid	380, 6720
+Asteroid	612, 6684
+Asteroid	538, 6620
+Asteroid	810, 6592
+Drone		108, 6590
+Drone		756, 6590
+Asteroid	480, 6520
+Asteroid	270, 6382
+Asteroid	520, 6201
+Asteroid	370, 6031
+Asteroid	430, 5928
+Asteroid	612, 5868
+Drone		252, 5292
+Drone		828, 3780
+Fighter		540, 3708
+Fighter		612, 3564
+Fighter		684, 3420
+Drone		828, 3420
+Fighter		612, 3204
+Fighter		540, 3060
+Drone		828, 3060
+Fighter		324, 2052
+Fighter		612, 1980
+Asteroid	36, 1764
+Asteroid	792, 1548
+Drone		108, 1260
+Drone		756, 1260
+Boss		1301, 144

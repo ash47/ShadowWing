@@ -1,0 +1,76 @@
+Item Data File
+==============
+
+This text file contains tabular data about each item in the game. You may
+use this data in any way you wish in the source code of your program. It is
+provided so that you don't have to work out the exact attributes and
+placements of each item.
+
+There are two sections. The "general item data" section contains a table with
+a row for each item *type*. The "specific item data" section contains a table
+with a row for each actual item instance. For example, there are several
+Repair power-ups in the game -- the general table has one row for "Repair".
+The specific table has a row for each Repair power-up featured in the game.
+
+General item data
+=================
+
+Note that the image file for each item is in the "assets/items" directory.
+
+Item type       Image file          Effect
+--------------------------------------------------------------
+Repair          repair.png          Shield = Full-Shield
+Shield          shield.png          Shield and Full-Shield +40
+Firepower       firepower.png       Firepower +1
+
+Specific item data
+==================
+
+This table shows the position of each item in the game.
+
+Item type	Position (x, y) in pixels
+-----------------------------------------
+
+Shield		824, 11052
+Repair		974, 10404
+Repair		826, 9474
+Shield		479, 8751
+Firepower	758, 8266
+Shield		1253, 7065
+Repair		693, 6704
+Firepower	1393, 6082
+Repair		613, 5432
+Shield		759, 4646
+Firepower	831, 4137
+Repair		536, 3626
+Repair		464, 3423
+Repair		612, 1921
+Repair		1263, 1551
+Shield		1623, 12633
+Repair		1678, 11552
+Firepower	968, 11342
+Shield		1983, 10982
+Shield		1187, 10616
+Shield		1237, 9821
+Repair		1622, 9449
+Repair		968, 8663
+Firepower	1695, 8230
+Shield		903, 8024
+Repair		1028, 7527
+Shield		2046, 7163
+Shield		1033, 6868
+Shield		1540, 6636
+Repair		1060, 6515
+Repair		1673, 6131
+Firepower	900, 5812
+Firepower	1455, 5216
+Firepower	1330, 4784
+Repair		968, 5144
+Firepower	1766, 3777
+Repair		1187, 3041
+Shield		1191, 2630
+Repair		1334, 2127
+Repair		1909, 1976
+Repair		1546, 1547
+Shield		1112, 1184
+Repair		1407, 1112

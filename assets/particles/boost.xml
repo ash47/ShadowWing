@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emitter imageName="" name="Boost">
+  <spawnInterval enabled="true" max="150.0" min="150.0"/>
+  <spawnCount enabled="true" max="1.0" min="1.0"/>
+  <initialLife enabled="true" max="1000.0" min="1000.0"/>
+  <initialSize enabled="true" max="25.0" min="25.0"/>
+  <xOffset enabled="false" max="0.0" min="0.0"/>
+  <yOffset enabled="false" max="0.0" min="0.0"/>
+  <initialDistance enabled="false" max="0.0" min="0.0"/>
+  <speed enabled="true" max="40.0" min="40.0"/>
+  <length enabled="false" max="1000.0" min="1000.0"/>
+  <spread value="0.0"/>
+  <angularOffset value="180.0"/>
+  <growthFactor value="50.0"/>
+  <gravityFactor value="0.0"/>
+  <startAlpha value="255.0"/>
+  <endAlpha value="0.0"/>
+  <color>
+    <step offset="0.0" r="0.3" g="0.3" b="1.0"/>
+	<step offset="1.0" r="0.0" g="0.0" b="0.0"/>
+  </color>
+</emitter>
