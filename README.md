@@ -4,7 +4,7 @@ Shadow Wing
 ###About the project###
  - This is a project I completed for a 2nd year programming class at The University of Melborune (SWEN20003 Object Oriented Software Development).
  - This project was done with around 6 weeks of java experience (2 hours of prac + 2 hours of lectures / week).
- - The original spec currently isn't included, I am waiting for permission to upload it here.
+ - The original spec is in the _specs folder.
  - We were offered the chance to extend the game, with the best extension winning a programming contest -- My entry won.
 
 ###About my extension###
